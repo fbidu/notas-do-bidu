@@ -2,7 +2,7 @@
 title = "Autoformatação de Código ― Quando e Como"
 date = 2020-05-13T20:49:47-03:00
 description = "Uma descrição da minha jornada desde odiar formatadores automáticos até usá-los em tudo"
-draft = true
+draft = false
 toc = true
 categories = ["python", "estilo de código"]
 tags = ["black", "python"]
@@ -15,7 +15,7 @@ images = [] # overrides site-wide open graph image
 
 {{% hackcss-alert type="info" %}}
 <strong>TL; DR:</strong> Use o índice para ir direto ao ponto que você quer, por
-exemplo [Reformatando com Black!]({{< relref "#reformatando-com-black" >}})
+exemplo [Reformatando com Black!]({{< relref "2020-05-13-autoformat-black.md#reformatando-com-black" >}})
 {{% /hackcss-alert %}}
 
 ## Introdução

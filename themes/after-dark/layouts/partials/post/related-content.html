@@ -23,7 +23,7 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
 {{ if and (gt $page_count 1) (ne $limit 0) }}
   {{ with $pages }}
     <aside>
-      <header>Related Content</header>
+      <header>Conteúdo Relacionado</header>
       {{ with (index $.Site.Params.layout $.Type).related }}
         {{ if ne $.Site.Params.hackcss.disabled true }}
           {{ with resources.Get "css/conditional/layouts/partials/page-thumbs.css" | minify }}
@@ -35,7 +35,7 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
         <ul>
           {{ range . }}
             <li><a href="{{ .RelPermalink }}">{{ .Title }}</a>
-            <time class="muted" datetime="{{ .ReadingTime }}M">{{ .ReadingTime }} minutes</time>
+            <time class="muted" datetime="{{ .ReadingTime }}M">{{ .ReadingTime }} minutos</time>
           {{ end }}
         </ul>
       {{ end }}

@@ -6,7 +6,7 @@ draft = false
 toc = true
 categories = ["python", "estilo de código"]
 tags = ["black", "python"]
-images = [] # overrides site-wide open graph image
+author = "Felipe Bidu"
 [[copyright]]
   owner = "Felipe Bidu"
   date = "2020"
